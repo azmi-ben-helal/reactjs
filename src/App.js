@@ -1,9 +1,10 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Test from './form'
+import Global from './Components/Form'
+
 function App() {
-  return <Test />
+  return <Global />
 }
 
 export default App

@@ -1,10 +1,12 @@
 import React from 'react'
 import { Col, Button, Form, Row, Container } from 'react-bootstrap'
+import NavBar from './NavBar'
 
-const Test = () => {
+const Global = () => {
   return (
-    <Container>
-      <Row className="justify-content-md-center">
+    <Container fluid>
+      <NavBar />
+      <Row className="justify-content-md-center m-5 pb-5 shadow-lg p-4 mb-4 bg-white">
         <Form>
           <Form.Row>
             <Form.Group as={Col} controlId="formGridEmail">
@@ -60,4 +62,4 @@ const Test = () => {
   )
 }
 
-export default Test
+export default Global
